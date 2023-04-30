@@ -1,4 +1,4 @@
-const API_KEY = '6e2a8bc64d01d94cc9de37803462ca51';
+const API_KEY = '';
 
 // https://api.openweathermap.org/data/2.5/weather?lat=5.907757&lon=127.766922&appid=241051bf13976dd3ddf8b8d9f247255e
 
