@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <form action="" method="post" id="login-form">
+            <div class="login-box">
+                <input type="text" name="userId" placeholder="Input your name, please.">
+                <button type="submit">LOGIN</button>
+            </div>
+        </form>
+
+
+
+
+
+        <div class="greeting hidden">
+
+            <div class="card-box">
+                <div class="title">
+                    <h1></h1> <a href="#" id="logout">Logout</a>
+                </div>
+                <div class="row">
+                    <div class="col left">
+                        <div class="card-box">
+                            <h2 id="clock">00 00:00:00</h2>
+                        </div>
+
+                        <div class="card-box" id="weather">
+                            <span></span><span></span>
+                        </div>
+                        <div class="card-box" id="quotes">
+                            <span></span><span></span>
+                        </div>
+
+                    </div>
+                    <div class="col right">
+                        <div class="card-box today-todo">
+                            <h3>Today's to do</h3>
+                            <div class="todo-box">
+                                <ol id="todo-list">
+                                </ol>
+                            </div>
+                            <form id="todo-form">
+                                <input type="text" placeholder="Write a To do and press Enter">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="quotes.js"></script>
+<script src="background.js"></script>
+<script src="weather.js"></script>
+<script src="todo.js"></script>
+
+</html>
